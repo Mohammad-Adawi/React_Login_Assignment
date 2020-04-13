@@ -1,6 +1,6 @@
 import * as React from "react";
 import '../styles/App.css';
-import { Card, Image, Icon } from 'semantic-ui-react';
+import { Card, Image, Icon, Button } from 'semantic-ui-react';
 export class Form extends React.Component{
  public state = {
     email: "",
@@ -37,7 +37,7 @@ export class Form extends React.Component{
           <div className="col col-md-4" />
           <div className="col col-md-4" />
             <button onClick={e => this.handleLogout(e)} className="btn btn-primary">
-              Log Out
+            <Button content="Log Out" color='red' />
             </button>
             <form>
             <h3>
