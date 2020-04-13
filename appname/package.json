@@ -1,0 +1,6 @@
+{
+  "name": "appname",
+  "version": "0.1.0",
+  "@types/react-responsive": "^3.0.2",
+  "private": true
+}
