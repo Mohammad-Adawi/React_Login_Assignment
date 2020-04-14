@@ -44,7 +44,7 @@ export class Form extends React.Component{
               {this.state.email}
               <React.Fragment>
                 <Card>
-                    <Image src='cartoon.png' wrapped ui={false} />
+                   <Image src='cartoon.png' wrapped ui={false}/>
                     <Card.Content>
                         <Card.Header>{this.state.email}</Card.Header>
                         <Card.Meta>
