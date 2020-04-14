@@ -66,9 +66,9 @@ label{
 }
 .main-splash-container{
 	/* background-image:url('../wcal-bg-background-1.jpg'); */
-	background-size:cover;
+	/* background-size:cover;
 	background-repeat:no-repeat;
-	background-position: top center;
+	background-position: top center; */
 	height:600px;
 	max-height:600px;
   max-width: 100%;
